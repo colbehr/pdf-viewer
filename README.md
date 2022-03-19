@@ -1,8 +1,11 @@
 # pdf-viewer
 
 Using CMD 
+
 npm 7.12.0
+
 node v16.14.2
+
 @vue/cli 5.0.3
 
 
@@ -34,9 +37,14 @@ npm run serve
 npm run electron:serve
 ```
 
-### Compiles and minifies for production
+### Compiles and minifies for production -- web
 ```
 npm run build
+```
+
+### Compiles and hot-reloads for development -- desktop
+```
+npm run electron:build
 ```
 
 ### Lints and fixes files
