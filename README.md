@@ -1,6 +1,9 @@
 # pdf-viewer
 
-Using CMD 
+![Employee data](/pic.png?raw=true)
+
+
+Created using CMD with vue cli 
 
 npm 7.12.0
 
