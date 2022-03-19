@@ -1,9 +1,11 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div>
+    <nav>
+      <router-link to="/home">Picker</router-link> |
+      <router-link to="/view">Viewer</router-link>
+    </nav>
+    <router-view/>
+  </div>
 </template>
 
 <style>
@@ -12,7 +14,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #fff;
+}
+body{
+  
+  background-color: #202020;
 }
 
 nav {
@@ -21,10 +27,10 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #fff;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #5b8e7d;
 }
 </style>
